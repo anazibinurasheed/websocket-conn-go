@@ -1,6 +1,10 @@
 Websocket-conn-go
 ===
 An example application to understand Web socket protocol. A handy app to get started with.
+
+The websocket send back the sented message with the server signature message.
+
+
 ## Use
 - Clone 
   ```
@@ -14,6 +18,12 @@ An example application to understand Web socket protocol. A handy app to get sta
 - Run
   ```
   go run .
+  ```
+
+
+- Browser
+  ```
+  http://localhost:8080/
   ```
 ## Directory Hierarchy
 ```
